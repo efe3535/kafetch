@@ -37,6 +37,8 @@ with open("/proc/meminfo") as file:
 kernel = subprocess.check_output(['uname', '-r']).decode("utf-8").replace("\n", "")
 arch = subprocess.check_output(['uname', '-m']).decode("utf-8").replace("\n", "")
 terminal = subprocess.check_output(['ps -o comm= -p "$(($(ps -o ppid= -p "$(($(ps -o sid= -p "$$")))")))"'], shell=True).decode("utf-8").replace("\n", "")
+if terminal == "gnome-terminal-":
+  terminal = "gnome-terminal"
 def get_uptime():
   uptime_c = subprocess.check_output(['uptime']).decode("utf-8").replace("\n", "")
   try:
