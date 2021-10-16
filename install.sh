@@ -1,4 +1,4 @@
-chmod +x cmfetch.py
-cp cmfetch.py /usr/bin/cmfetch
-mkdir -p /etc/cmfetch
-cp cm /etc/cmfetch/
+chmod +x kafetch.py
+cp kafetch.py /usr/bin/kafetch
+mkdir -p /etc/kafetch
+cp cm /etc/kafetch/

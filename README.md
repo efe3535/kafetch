@@ -1,5 +1,5 @@
-# cmfetch
-A Linux system fetch tool with Python
+# kafetch
+A communist Linux system fetch tool with Python
 ## Installation
 Run as root:<br/>
-`git clone https://github.com/Camroku/cmfetch;cd cmfetch;sh install.sh`
+`git clone https://github.com/Camroku/kafetch;cd kafetch;sh install.sh`
