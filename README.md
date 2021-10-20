@@ -1,5 +1,5 @@
 # kafetch
-A communist Linux system fetch tool with Python
+A communist Linux system fetch tool with Python<br/>
 If you need help, get it from [KApps Forum](https://kapps.camroku.xyz/)
 
 ## Installation
